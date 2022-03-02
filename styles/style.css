@@ -1,10 +1,123 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Nunito Sans', sans-serif;
-    font-size: 62.5%;
 }
 
+nav div a {
+    color: white;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    margin: 0.5rem 0;
+    padding: 1rem 0;
+    background-color: #3385ff;
+    color: white;
+}
+
+.containerDestacados{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+}
+
+.section__variedad{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    border-top: 0.5rem solid #3385ff;  
+}
+
+.section__variedad--titulos{
+    display: flex;
+    height: 60px;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.section__variedad--titulos li{
+    width: 400px;
+    text-align: center; 
+    font-size: 1rem;   
+}
+
+.section__variedad--titulos li a{
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #3385ff;
+    color: white;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.section__variedad--img{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 0.5rem solid #3385ff;
+    padding-bottom: 2rem; 
+}
+
+main{
+    margin-top: 6rem;
+}
+
+footer{
+    margin-top: 60px;
+    grid-area: footer;
+}
+
+.footer__logo{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.footer__footnav{
+    width: 40%;
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+}
+
+.footer__footnav li a{
+    text-decoration: none;
+    color: #22356D;
+    font-size: 1rem;
+}
+
+.footer__redes{
+    margin: 0 auto;
+    width: 30%;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 35px;
+}
+
+.footer__redes li a img{
+    padding: 0 15px;
+}
+
+.unoticias__videos{
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* nav div:first-child{
+    display: flex;
+    justify-content: space-between;
+} */
+/* 
 .containerGrid{
     max-height: 25rem;
     display: grid;
@@ -139,88 +252,8 @@ header {
     padding: 10px 0;
 }
 
-main{
-    margin-top: 60px;
-    grid-area: secciones;
-}
 
-.section__variedad--titulos{
-    display: flex;
-    height: 60px;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-}
 
-.section__variedad--titulos li{
-    width: 400px;
-    text-align: center; 
-    font-size: 1.5rem;   
-}
-
-.section__variedad--titulos li a{
-    text-decoration: none;
-    font-weight: bold;
-    background-color: #69DFE2;
-    color: black;
-    padding: 3%;
-    border-radius: 5px;
-}
-
-.section__variedad--img{
-    display: flex;
-    list-style: none;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-.section__variedad{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    border: 2px #69DFE2 solid;
-}
-
-footer{
-    margin-top: 60px;
-    grid-area: footer;
-}
-
-.footer__logo{
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    margin-bottom: 30px;
-}
-
-.footer__footnav{
-    width: 40%;
-    margin: 0 auto;
-    list-style-type: none;
-    display: flex;
-    align-content: center;
-    justify-content: space-evenly;
-}
-
-.footer__footnav li a{
-    text-decoration: none;
-    color: #22356D;
-    font-size: 1.5rem;
-}
-
-.footer__redes{
-    margin: 0 auto;
-    width: 30%;
-    list-style-type: none;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 35px;
-}
-
-.footer__redes li a img{
-    padding: 0 15px;
-}
 
 .rankings__titulo{
     text-align: center;
@@ -258,11 +291,6 @@ footer{
     list-style: none;
 }
 
-.unoticias__videos{
-    margin-top: 35px;
-    display: flex;
-    justify-content: space-evenly;
-}
 
 .alqynoticias__titulo{
     text-align: center;
@@ -399,4 +427,4 @@ footer{
 
 #headerPaletas{
     grid-area: encabezado;
-}
+} */

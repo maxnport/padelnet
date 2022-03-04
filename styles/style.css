@@ -22,6 +22,11 @@ h2{
     margin-top: 3rem;
 }
 
+.containerDestacados a img{
+    width: 100px;
+    height: 100px;
+}
+
 .section__variedad{
     display: flex;
     flex-direction: column;
@@ -62,8 +67,13 @@ h2{
     padding-bottom: 2rem; 
 }
 
+.section__variedad--img img{
+    height: 400px;
+    width: 400px;
+}
+
 main{
-    margin-top: 1.5rem;
+    margin-top: 0.5rem;
 }
 
 footer{
@@ -111,6 +121,11 @@ footer{
     margin-top: 35px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.header__searchbar--search{
+    width: 35rem;
+    text-align: center;    
 }
 
 /* nav div:first-child{
@@ -173,14 +188,6 @@ header {
     align-items: center;
     width: 55%;
     justify-content: center;
-}
-
-.header__searchbar--search{
-    width: 70%;
-    height: 40px;
-    border-radius: 20px;
-    margin: 0 30px;
-    font-size: 1.5rem;
 }
 
 .header__searchbar--button{ 

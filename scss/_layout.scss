@@ -1,0 +1,66 @@
+.container-fluid{
+    justify-content: center;
+}
+
+.container__layout{
+    padding: 0;
+}
+
+#loginRegister{
+    li{
+        padding: 0 1vw;
+        text-align: center;
+    }
+}
+
+.form-control{
+    width: 35vw;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: $colorTexto;
+    padding: 2vh 0;
+    margin-top: 2vh;
+}
+
+section {
+    img {
+            width: 20vw;
+            height: 20vh;
+            overflow: hidden;
+}
+}
+
+#variedad{
+    margin-top: 10vh;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5vh auto;
+    width: 40vw;
+}
+
+.footer__links{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer__logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#logoFooter{
+    width: 10vw;
+    margin: 0 auto;
+}
+
+.hamburguer{
+    display: none;
+}
+

@@ -1,0 +1,22 @@
+@media (max-width: 767px) {
+    .hamburguer{
+        display:block;
+        width: 100%;
+    }
+
+    .hamburguer{
+        img{
+            width: 50vw;
+        }
+    }
+
+    .navbar__desk{
+        display: none;
+    }
+
+    .streams{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+}

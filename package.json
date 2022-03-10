@@ -1,0 +1,11 @@
+{
+  "name": "styles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass style.scss ./styles/style.css -w --no-source-map -s compressed"
+  },
+  "author": "",
+  "license": "ISC"
+}

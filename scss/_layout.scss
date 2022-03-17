@@ -41,8 +41,8 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 5vh auto;
     width: 40vw;
+    @extend .containerCenter;
 }
 
 .footer__links{
@@ -53,6 +53,7 @@ footer{
 .footer__logos{
     display: flex;
     justify-content: space-evenly;
+    @include transformLink(20px);
 }
 
 #logoFooter{

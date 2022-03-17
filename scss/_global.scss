@@ -4,3 +4,17 @@
     list-style: none;
     text-decoration: none;
 }
+
+.containerCenter{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+@mixin transformLink ($paddingID) {
+    :hover{
+        padding: 10px $paddingID;
+        width: 5rem;
+        transition: all ease;
+        cursor: pointer;
+    }
+}
